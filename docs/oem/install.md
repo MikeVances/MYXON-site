@@ -89,7 +89,7 @@ Expected output:
 
 If your Orange Pi has a **USB Ethernet adapter** connected to an industrial switch,
 you can make it act as a full DHCP router for the PLC/HMI network.
-This is the same role that IXrouter plays in IXON deployments.
+The agent then serves as the LAN gateway for all downstream controllers.
 
 ```
 Internet ──── eth0 (DHCP from ISP/uplink)
@@ -159,7 +159,7 @@ after a reboot or when adding a new device. iptables rules are checked before ad
 ## 4G WAN failover — backup internet via USB modem
 
 If the Orange Pi has a USB 4G modem connected, the installer can configure it as an
-**automatic backup WAN** — the same failover role as IXON's built-in LTE slot.
+**automatic backup WAN** — failover to LTE when the primary link goes down.
 
 ```
 Internet ──── eth0 (primary WAN, metric 100)

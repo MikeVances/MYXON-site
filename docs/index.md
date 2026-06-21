@@ -30,7 +30,7 @@ features:
 
   - icon: 🏭
     title: Multi-vendor support
-    details: Works with HOTRACO, SCOV, Stienen, and other agricultural controller brands. Web HMI, VNC, and custom TCP protocols supported.
+    details: Works with HOTRACO, SKOV, Stienen, and other agricultural controller brands. Web HMI, VNC, and custom TCP protocols supported.
 
   - icon: ⚡
     title: Two deployment paths
