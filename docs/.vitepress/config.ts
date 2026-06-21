@@ -59,6 +59,8 @@ export default defineConfig({
             { text: 'Overview', link: '/customer/overview' },
             { text: 'Claim a device (QR code)', link: '/customer/claim-device' },
             { text: 'Device dashboard', link: '/customer/device-dashboard' },
+            { text: 'Web HMI in the browser', link: '/customer/web-access' },
+            { text: 'Remote access control', link: '/customer/remote-access-control' },
             { text: 'Locations', link: '/customer/locations' },
             { text: 'Alarms', link: '/customer/alarms' },
             { text: 'Notifications', link: '/customer/notifications' },
