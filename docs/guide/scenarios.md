@@ -50,7 +50,7 @@ sequenceDiagram
 
 **Your controller already has Linux on board. You embed the agent.**
 
-This is the OEM integration model. You manufacture a controller (SCOV, Stienen, or your own brand) that ships with an embedded Linux server. You install the MYXON agent alongside your existing software.
+This is the OEM integration model. You manufacture a controller (SKOV, Stienen, or your own brand) that ships with an embedded Linux server. You install the MYXON agent alongside your existing software.
 
 ### Flow
 

@@ -51,7 +51,7 @@ The agent re-scans the LAN every `MYXON_DISCOVERY_INTERVAL` seconds (default: 60
 ## Router mode — Orange Pi as gateway
 
 When Orange Pi has a **USB Ethernet adapter** connected to a dedicated industrial switch,
-it can act as a full DHCP router — the same role as IXON's IXrouter.
+it can act as a full DHCP router for the downstream PLC/HMI network.
 
 ```
 Internet ──── eth0 (DHCP from uplink)
