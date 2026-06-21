@@ -43,4 +43,12 @@ features:
   - icon: 📊
     title: Dealer fleet visibility
     details: Dealers see connectivity status of every device they registered — even after the customer claims it. Know your product is healthy in the field.
+
+  - icon: 🌐
+    title: Web HMI in the browser
+    details: Open a controller's built-in web interface straight from MYXON — over the existing outbound tunnel, with one-time time-bounded grants. No VPN, no exposed device.
+
+  - icon: 🔌
+    title: Sovereign remote kill-switch
+    details: "Remote access can be blocked from the portal — or, decisively, on the device itself. The local block is sovereign: no cloud account can override the person standing at the machine."
 ---
