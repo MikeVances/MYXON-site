@@ -10,7 +10,9 @@ After logging in, you land on the **Locations** page. The main sections are:
 |------|------|---------|
 | Locations | `/locations` | Overview of all your sites and their devices |
 | Devices | `/devices` | Full device list with filtering by site |
-| Device Dashboard | `/devices/{id}` | Individual device detail, HMI, alarms, event log |
+| Device Dashboard | `/devices/{id}` | Individual device detail, HMI, RDP/SSH, cameras, alarms, documents, event log |
+| Dashboards | `/pages` | Build custom overview pages from metric, chart, image and note cards |
+| Messages | `/messages` | Feed of events (alarms, network changes) for your organisation |
 | Activate Device | `/claim` | Claim a new device by serial or QR code |
 | Notifications | `/notifications` | Alarm notification contacts and routing rules (admin only) |
 
