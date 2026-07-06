@@ -46,7 +46,7 @@ MYXON использует [FRP (Fast Reverse Proxy)](https://github.com/fatedie
 
 ```json
 [
-  { "id": "remote-plus", "protocol": "tcp",  "host": "192.168.1.100", "port": 5843, "name": "HOTRACO Remote+" },
+  { "id": "remote-plus", "protocol": "tcp",  "host": "192.168.1.100", "port": 5843, "name": "Remote+ HMI" },
   { "id": "vnc",         "protocol": "vnc",  "host": "192.168.1.100", "port": 5900, "name": "VNC" },
   { "id": "http",        "protocol": "http", "host": "192.168.1.100", "port": 80,   "name": "Web UI" }
 ]
@@ -60,7 +60,7 @@ MYXON использует [FRP (Fast Reverse Proxy)](https://github.com/fatedie
 
 | Разрешение | Чем управляет |
 |------------|---------------|
-| `allow_hmi` | Открывать HMI-сессии (HOTRACO Direct HMI) |
+| `allow_hmi` | Открывать HMI-сессии (Direct HMI) |
 | `allow_vnc` | Открывать VNC-подключения |
 | `allow_http` | Открывать HTTP/веб-сессии |
 | `allow_alarms_view` | Видеть панель аварий |

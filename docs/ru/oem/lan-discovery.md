@@ -29,7 +29,7 @@ flowchart TD
 
 | Порт | Протокол | Сервис |
 |------|----------|---------|
-| 5843 | TCP | HOTRACO Remote+ |
+| 5843 | TCP | Remote+ HMI |
 | 5900 | VNC | VNC-десктоп |
 | 80 | HTTP | Web UI |
 

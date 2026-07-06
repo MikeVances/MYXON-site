@@ -46,7 +46,7 @@ A device can expose multiple **resources** — services the agent discovered on 
 
 ```json
 [
-  { "id": "remote-plus", "protocol": "tcp",  "host": "192.168.1.100", "port": 5843, "name": "HOTRACO Remote+" },
+  { "id": "remote-plus", "protocol": "tcp",  "host": "192.168.1.100", "port": 5843, "name": "Remote+ HMI" },
   { "id": "vnc",         "protocol": "vnc",  "host": "192.168.1.100", "port": 5900, "name": "VNC" },
   { "id": "http",        "protocol": "http", "host": "192.168.1.100", "port": 80,   "name": "Web UI" }
 ]
@@ -60,7 +60,7 @@ Access policies let customer admins restrict what specific users can do. Policie
 
 | Permission | What it controls |
 |------------|-----------------|
-| `allow_hmi` | Open HMI sessions (HOTRACO Direct HMI) |
+| `allow_hmi` | Open HMI sessions (Direct HMI) |
 | `allow_vnc` | Open VNC connections |
 | `allow_http` | Open HTTP/web sessions |
 | `allow_alarms_view` | See the alarm panel |

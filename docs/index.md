@@ -6,7 +6,8 @@ hero:
   text: "Remote access for agricultural automation"
   tagline: Connect, monitor, and control your farm controllers from anywhere — without opening firewall ports.
   image:
-    src: /logo.svg
+    light: /logo-light.svg
+    dark: /logo-dark.svg
     alt: MYXON
   actions:
     - theme: brand
@@ -33,7 +34,7 @@ features:
 
   - icon: 🏭
     title: Multi-vendor support
-    details: Works with HOTRACO, SKOV, Stienen, and other agricultural controller brands. Web HMI, VNC, and custom TCP protocols supported.
+    details: Works with the leading agricultural controller brands. Web HMI, VNC, and custom TCP protocols supported.
 
   - icon: ⚡
     title: Two deployment paths

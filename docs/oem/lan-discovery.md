@@ -29,7 +29,7 @@ The agent probes these ports on every host in the subnet:
 
 | Port | Protocol | Service |
 |------|----------|---------|
-| 5843 | TCP | HOTRACO Remote+ |
+| 5843 | TCP | Remote+ HMI |
 | 5900 | VNC | VNC desktop |
 | 80 | HTTP | Web UI |
 

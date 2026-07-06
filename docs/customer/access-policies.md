@@ -26,7 +26,7 @@ Navigate to **Settings → Access Policies** (requires admin role).
 
 | Permission | When restricted | UI behavior |
 |------------|-----------------|------------|
-| `allow_hmi` | HOTRACO Direct HMI disabled | HMI section hidden |
+| `allow_hmi` | Direct HMI disabled | HMI section hidden |
 | `allow_vnc` | VNC Connect button disabled | Button grayed out |
 | `allow_http` | HTTP Connect button disabled | Button grayed out |
 | `allow_alarms_view` | Alarm panel hidden | Replaced with policy warning |

@@ -15,7 +15,7 @@ export default defineConfig({
   ],
 
   themeConfig: {
-    logo: '/logo.svg',
+    logo: { light: '/logo-light.svg', dark: '/logo-dark.svg' },
     siteTitle: 'MYXON Docs',
     socialLinks: [
       { icon: 'github', link: 'https://github.com/MikeVances/MYXON-site' },

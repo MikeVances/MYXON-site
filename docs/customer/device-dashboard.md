@@ -2,7 +2,7 @@
 
 The device dashboard is the main workspace for a single device. Open it by clicking on a device in the Devices list.
 
-> **Screenshot:** *Device dashboard header: back arrow, device name "HOTRACO Orion — Stable A", shield badge with policy name, and "5m" refresh button.*
+> **Screenshot:** *Device dashboard header: back arrow, device name "Barn Controller — Stable A", shield badge with policy name, and "5m" refresh button.*
 
 ## Dashboard sections
 
@@ -23,7 +23,7 @@ Shows the current tunnel status and basic device information.
 
 Lists all services published by this device. Each service can be opened as a remote access session.
 
-> **Screenshot:** *Web Access card with two resources: "HOTRACO Remote+ (TCP · port 5843)" and "VNC (VNC · port 5900)". Each has a Connect button (amber) or "restricted" label if policy blocks it.*
+> **Screenshot:** *Web Access card with two resources: "Remote+ HMI (TCP · port 5843)" and "VNC (VNC · port 5900)". Each has a Connect button (amber) or "restricted" label if policy blocks it.*
 
 ::: info Access policy restrictions
 If your user role or site access policy restricts a resource type, the Connect button shows as disabled with a "restricted" label. Contact your admin to adjust access policies.
@@ -38,7 +38,7 @@ If your user role or site access policy restricts a resource type, the Connect b
 
 ### Direct HMI
 
-For HOTRACO devices (Orion, Cygnus, Sirius families), the dashboard shows a **live HMI screen** — the same display you'd see on the physical controller — refreshed every 250ms.
+For controllers exposing a Direct HMI protocol, the dashboard shows a **live HMI screen** — the same display you'd see on the physical controller — refreshed every 250ms.
 
 > **Screenshot:** *Direct HMI section: pixel-perfect controller display showing temperature graphs and zone settings, rendered at 3× scale.*
 

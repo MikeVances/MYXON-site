@@ -4,7 +4,7 @@ MYXON is a **remote access and monitoring platform** built for agricultural auto
 
 ## The problem it solves
 
-Agricultural controllers (HOTRACO, SKOV, Stienen, Siemens) live deep inside farm networks. Reaching them remotely traditionally requires:
+Agricultural controllers live deep inside farm networks. Reaching them remotely traditionally requires:
 
 - Port forwarding on the farm router (IT knowledge, security risk)
 - VPN infrastructure (expensive, complex to maintain)
