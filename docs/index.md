@@ -18,6 +18,9 @@ hero:
     - theme: alt
       text: OEM Integration
       link: /oem/overview
+    - theme: alt
+      text: Contact us
+      link: /contact
 
 features:
   - icon: 🔒

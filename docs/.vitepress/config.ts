@@ -25,6 +25,7 @@ export default defineConfig({
       { text: 'Dealer', link: '/dealer/overview' },
       { text: 'Customer', link: '/customer/overview' },
       { text: 'OEM / SDK', link: '/oem/overview' },
+      { text: 'Contact', link: '/contact' },
     ],
 
     sidebar: {
