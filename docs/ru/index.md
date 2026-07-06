@@ -2,12 +2,11 @@
 layout: home
 
 hero:
-  name: "MYXON"
   text: "Удалённый доступ для автоматизации сельского хозяйства"
   tagline: Подключайтесь, контролируйте и управляйте фермерскими контроллерами откуда угодно — без проброса портов на роутере.
   image:
-    light: /logo-light.svg
-    dark: /logo-dark.svg
+    light: /wordmark-light.svg
+    dark: /wordmark-dark.svg
     alt: MYXON
   actions:
     - theme: brand

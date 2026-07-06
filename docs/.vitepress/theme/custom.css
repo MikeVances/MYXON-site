@@ -1,0 +1,24 @@
+/* ── Бренд MYXON: оранжевый акцент (#F26A1B) поверх дефолтной темы ──
+   Разные оттенки для light/dark: чистый #F26A1B на белом слишком светел
+   для текста ссылок (низкий контраст) → для brand-1 берём затемнённый,
+   на тёмной теме наоборот — осветлённый. */
+:root {
+  --vp-c-brand-1: #C2410C;               /* ссылки/акцентный текст (контраст на белом) */
+  --vp-c-brand-2: #EA580C;               /* hover */
+  --vp-c-brand-3: #F26A1B;               /* фон кнопок (бренд-оранж) */
+  --vp-c-brand-soft: rgba(242, 106, 27, 0.14);
+
+  /* hero-градиент имени/акцентов под бренд */
+  --vp-home-hero-name-color: #F26A1B;
+  --vp-button-brand-bg: #F26A1B;
+  --vp-button-brand-hover-bg: #EA580C;
+  --vp-button-brand-active-bg: #C2410C;
+  --vp-button-brand-border: transparent;
+}
+
+.dark {
+  --vp-c-brand-1: #FB923C;               /* светлее для контраста на тёмном фоне */
+  --vp-c-brand-2: #F97316;
+  --vp-c-brand-3: #F26A1B;
+  --vp-c-brand-soft: rgba(242, 106, 27, 0.20);
+}

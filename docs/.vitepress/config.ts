@@ -8,7 +8,9 @@ export default defineConfig({
   base: '/MYXON-site/',
 
   head: [
-    ['meta', { name: 'theme-color', content: '#1d4ed8' }],
+    // favicon: head-ссылки НЕ проходят через withBase → путь с base вручную
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/MYXON-site/favicon.svg' }],
+    ['meta', { name: 'theme-color', content: '#F26A1B' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:title', content: 'MYXON Docs' }],
     ['meta', { property: 'og:description', content: 'Remote access and monitoring for agricultural controllers' }],

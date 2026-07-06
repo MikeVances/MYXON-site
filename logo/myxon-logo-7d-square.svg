@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -22 286 84">
+  <!-- M Y . O N — слейт-штрихи (X-слот пуст, центр слота ≈ x147) -->
+  <g fill="none" stroke="#2B333D" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M8.66 35 L8.66 -5 L34.64 20 L60.62 -5 L60.62 35"/>
+    <path d="M77.94 -5 L95.26 5 L112.58 -5 M95.26 5 L95.26 35"/>
+    <path d="M199.19 -5 L216.51 5 L216.51 25 L199.19 35 L181.87 25 L181.87 5 Z"/>
+    <path d="M233.83 35 L233.83 -5 L268.47 35 L268.47 -5"/>
+  </g>
+  <!-- X = знак умножения: диагонали КВАДРАТА 50×50, углы (122,-10)(172,-10)(122,40)(172,40) -->
+  <path d="M122 -10 L172 40 M172 -10 L122 40" fill="none" stroke="#F26A1B" stroke-width="6" stroke-linecap="round"/>
+  <!-- 4 узла-точки точно в углах квадрата -->
+  <g fill="#F26A1B">
+    <circle cx="122" cy="-10" r="3.6"/>
+    <circle cx="172" cy="-10" r="3.6"/>
+    <circle cx="122" cy="40" r="3.6"/>
+    <circle cx="172" cy="40" r="3.6"/>
+  </g>
+</svg>

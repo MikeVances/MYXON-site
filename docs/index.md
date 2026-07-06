@@ -2,12 +2,11 @@
 layout: home
 
 hero:
-  name: "MYXON"
   text: "Remote access for agricultural automation"
   tagline: Connect, monitor, and control your farm controllers from anywhere — without opening firewall ports.
   image:
-    light: /logo-light.svg
-    dark: /logo-dark.svg
+    light: /wordmark-light.svg
+    dark: /wordmark-dark.svg
     alt: MYXON
   actions:
     - theme: brand
