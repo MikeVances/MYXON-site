@@ -86,7 +86,7 @@ export default defineConfig({
           }],
         },
         footer: {
-          message: 'MYXON Platform',
+          message: 'MYXON Platform · <a href="/MYXON-site/privacy">Privacy Policy</a>',
           copyright: 'Built for agricultural automation professionals',
         },
       },
@@ -152,7 +152,7 @@ export default defineConfig({
           }],
         },
         footer: {
-          message: 'Платформа MYXON',
+          message: 'Платформа MYXON · <a href="/MYXON-site/ru/privacy">Политика конфиденциальности</a>',
           copyright: 'Сделано для специалистов по автоматизации сельского хозяйства',
         },
         docFooter: { prev: 'Предыдущая', next: 'Следующая' },

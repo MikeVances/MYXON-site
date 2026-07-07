@@ -9,6 +9,8 @@ import { ref } from 'vue'
 const API = 'https://hyper-myxon.taile34f93.ts.net'
 
 const form = ref({ name: '', email: '', company: '', role: '', message: '', website: '' })
+// Согласие — отдельный ref, НЕ в form: не уходит в payload API (иначе backend может отвергнуть).
+const consent = ref(false)
 const state = ref('idle') // idle | sending | ok | error
 const errorMsg = ref('')
 
@@ -71,9 +73,15 @@ async function submit() {
   <!-- Honeypot: скрыто от людей; боты заполняют и тихо отбрасываются -->
   <input v-model="form.website" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true" />
 
+  <label class="consent">
+    <input type="checkbox" v-model="consent" required />
+    <span>Я согласен на обработку персональных данных согласно
+      <a href="/MYXON-site/ru/privacy" target="_blank">Политике конфиденциальности</a>.</span>
+  </label>
+
   <div v-if="state === 'error'" class="contact-err">{{ errorMsg }}</div>
 
-  <button type="submit" :disabled="state === 'sending'">
+  <button type="submit" :disabled="state === 'sending' || !consent">
     {{ state === 'sending' ? 'Отправляем…' : 'Отправить сообщение' }}
   </button>
 </form>
@@ -87,6 +95,9 @@ async function submit() {
   background: var(--vp-c-bg); color: var(--vp-c-text-1);
 }
 .contact-form .hp { position: absolute; left: -9999px; width: 1px; height: 1px; opacity: 0; }
+.contact-form .consent { flex-direction: row; align-items: flex-start; gap: 8px;
+  font-weight: 400; font-size: 13px; color: var(--vp-c-text-2); }
+.contact-form .consent input { width: auto; margin-top: 2px; }
 .contact-form button {
   align-self: flex-start; background: var(--vp-c-brand-1); color: #fff; border: 0;
   border-radius: 8px; padding: 10px 20px; font-weight: 600; cursor: pointer;
