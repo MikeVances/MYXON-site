@@ -55,6 +55,7 @@ export default defineConfig({
               { text: 'Activation codes (Scenario 2)', link: '/dealer/activation-codes' },
               { text: 'Invite customers', link: '/dealer/invite-customers' },
               { text: 'Fleet monitoring', link: '/dealer/fleet-monitoring' },
+              { text: 'White-label & branded access', link: '/dealer/white-label' },
             ],
           }],
           '/customer/': [{
@@ -121,6 +122,7 @@ export default defineConfig({
               { text: 'Коды активации (Сценарий 2)', link: '/ru/dealer/activation-codes' },
               { text: 'Приглашение клиентов', link: '/ru/dealer/invite-customers' },
               { text: 'Мониторинг парка', link: '/ru/dealer/fleet-monitoring' },
+              { text: 'White-label и брендированный вход', link: '/ru/dealer/white-label' },
             ],
           }],
           '/ru/customer/': [{
