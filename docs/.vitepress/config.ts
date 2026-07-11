@@ -56,6 +56,7 @@ export default defineConfig({
               { text: 'Invite customers', link: '/dealer/invite-customers' },
               { text: 'Fleet monitoring', link: '/dealer/fleet-monitoring' },
               { text: 'White-label & branded access', link: '/dealer/white-label' },
+              { text: 'Multi-level park hierarchy', link: '/dealer/park-hierarchy' },
             ],
           }],
           '/customer/': [{
@@ -123,6 +124,7 @@ export default defineConfig({
               { text: 'Приглашение клиентов', link: '/ru/dealer/invite-customers' },
               { text: 'Мониторинг парка', link: '/ru/dealer/fleet-monitoring' },
               { text: 'White-label и брендированный вход', link: '/ru/dealer/white-label' },
+              { text: 'Многоуровневая иерархия парка', link: '/ru/dealer/park-hierarchy' },
             ],
           }],
           '/ru/customer/': [{
