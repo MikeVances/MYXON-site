@@ -46,6 +46,7 @@ export default defineConfig({
               { text: 'Core concepts', link: '/guide/concepts' },
               { text: 'Two deployment scenarios', link: '/guide/scenarios' },
               { text: 'Where your data lives', link: '/guide/data-residency' },
+              { text: 'Cloud or self-hosted', link: '/guide/deployment-options' },
             ],
           }],
           '/dealer/': [{
@@ -115,6 +116,7 @@ export default defineConfig({
               { text: 'Ключевые понятия', link: '/ru/guide/concepts' },
               { text: 'Два сценария развёртывания', link: '/ru/guide/scenarios' },
               { text: 'Где ваши данные', link: '/ru/guide/data-residency' },
+              { text: 'Облако или self-hosted', link: '/ru/guide/deployment-options' },
             ],
           }],
           '/ru/dealer/': [{
