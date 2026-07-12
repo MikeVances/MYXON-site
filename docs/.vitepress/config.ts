@@ -45,6 +45,7 @@ export default defineConfig({
               { text: 'What is MYXON?', link: '/guide/what-is-myxon' },
               { text: 'Core concepts', link: '/guide/concepts' },
               { text: 'Two deployment scenarios', link: '/guide/scenarios' },
+              { text: 'Where your data lives', link: '/guide/data-residency' },
             ],
           }],
           '/dealer/': [{
@@ -113,6 +114,7 @@ export default defineConfig({
               { text: 'Что такое MYXON?', link: '/ru/guide/what-is-myxon' },
               { text: 'Ключевые понятия', link: '/ru/guide/concepts' },
               { text: 'Два сценария развёртывания', link: '/ru/guide/scenarios' },
+              { text: 'Где ваши данные', link: '/ru/guide/data-residency' },
             ],
           }],
           '/ru/dealer/': [{
